@@ -58,9 +58,11 @@
   gap: 20px;
   margin-bottom: 100px;
 }
-.nav-links:hover: {
-  curser: pointer;
+
+.nav-links p:hover {
+  cursor: pointer;
 }
+
 /* Individual item alignment */
 .nav-item {
   display: grid;
@@ -113,4 +115,3 @@
   border: 2px solid brown; /* Temporary debug border */
   border-radius: 0 25px 25px 0; /* Rounded right edges only */
 }
-
